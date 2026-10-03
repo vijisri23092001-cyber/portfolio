@@ -27,7 +27,7 @@ nav{
     justify-content: space-around;
     align-items: center;
     color: white;
-    margin-top:-50px;
+    
 
     
 }
@@ -37,6 +37,7 @@ nav{
 .subnav {
     display: flex;
     gap: 30px;
+    
 }
 
 .subnav a {
@@ -213,7 +214,8 @@ label{
 
 /*------------------------------------- header -----------------------------------*/
 header{
-    /* background-color: red; */
+    background-color: red;
+    margin-top: 50px;
 }
 
 
@@ -221,7 +223,6 @@ header{
     display: flex;
     flex-direction: column;
     gap: 30px;
-    /* background-color: gray; */
     width: 50%;
    font-size: 30px;
    color: white;
